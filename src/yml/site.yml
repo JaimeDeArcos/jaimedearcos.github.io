@@ -1,13 +1,12 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Jaime de Arcos - Blog
+title: Jaime de Arcos - Blog
+description: Jaime de Arcos development blog.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - developer
+  - java
+  - kotlin
+  - spring
 show_hero: true
 menu:
   - title: Home
