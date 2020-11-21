@@ -2,6 +2,7 @@
 name: Jaime's Blog
 title: Jaime de Arcos - Blog
 description: Jaime de Arcos development blog.
+url: http://blog.jaimedearcos.es
 tags:
   - blog
   - developer
@@ -12,6 +13,8 @@ show_hero: true
 menu:
   - title: Blog
     url: /
+  - title: Home
+    url: http://jaimedearcos.es/#/home
   - title: Works
     url: http://jaimedearcos.es/#/works
   - title: Contact
@@ -39,7 +42,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://blog.jaimedearcos.es" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category

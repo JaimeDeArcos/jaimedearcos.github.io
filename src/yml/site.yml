@@ -1,6 +1,7 @@
 name: Jaime's Blog
 title: Jaime de Arcos - Blog
 description: Jaime de Arcos development blog.
+url: http://blog.jaimedearcos.es
 tags:
   - blog
   - developer
@@ -11,6 +12,8 @@ show_hero: true
 menu:
   - title: Blog
     url: /
+  - title: Home
+    url: http://jaimedearcos.es/#/home
   - title: Works
     url: http://jaimedearcos.es/#/works
   - title: Contact
