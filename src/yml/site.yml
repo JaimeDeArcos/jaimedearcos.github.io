@@ -1,4 +1,4 @@
-name: Jaime de Arcos - Blog
+name: Jaime's Blog
 title: Jaime de Arcos - Blog
 description: Jaime de Arcos development blog.
 tags:
@@ -9,13 +9,11 @@ tags:
   - spring
 show_hero: true
 menu:
-  - title: Home
+  - title: Blog
     url: /
-  - title: About
-    url: /about
+  - title: Works
+    url: http://jaimedearcos.es/#/works
   - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+    url: http://jaimedearcos.es/#/contact
+email: jaime.dearcos@gmail.com
+disqus_username: jaimedearcos
