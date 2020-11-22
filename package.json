@@ -3,7 +3,7 @@
   "version": "3.1.0",
   "description": "Jaime de Arcos devlopment blog",
   "main": "gulpfile.js",
-  "homepage": "http://blogjaimedearcos.es",
+  "homepage": "https://blog.jaimedearcos.es",
   "repository": {
     "type": "git",
     "url": "https://github.com/JaimeDeArcos/jaimedearcos.github.io.git"
