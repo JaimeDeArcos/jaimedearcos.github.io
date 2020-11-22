@@ -9,7 +9,7 @@ image: >-
   https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/ideas.jpg
 optimized_image: >-
   https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/ideas.jpg
-category: blog
+category: ocr
 tags: 
   - ocr
 author: jaimedearcos

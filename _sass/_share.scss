@@ -1,12 +1,11 @@
 .share {
   @include center(800px);
-  text-align: center;
-  border-top: 1px solid $lightGray;
-  padding-top: rem(20px);
-  margin-top: rem(10px);
+  //text-align: center;
+  //padding-top: rem(20px);
+  //margin-top: rem(10px);
 
   @include media(">=sm") {
-    margin-top: rem(50px);
+    margin-top: rem(10px);
   }
 
   article & {
