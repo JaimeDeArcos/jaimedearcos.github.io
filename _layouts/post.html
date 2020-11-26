@@ -36,6 +36,7 @@
 
             {% if site.two_columns_layout %}
                 <aside class="see-also">
+
                     <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
                     <ul>
                         {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
@@ -55,6 +56,9 @@
                             </li>
                         {% endfor %}
                     </ul>
+
+                    {% include share.html %}
+
                 </aside>
             {% endif %}
 
@@ -67,7 +71,7 @@
         {% endif %}
 
         <!-- Show modal if the post is the last one -->
-        {% if paginator.is_last and site.show_modal_on_finish_post %}
+        {% if paginator.is_last and siteb n.show_modal_on_finish_post %}
             {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
         {% endif %}
 
@@ -77,7 +81,6 @@
         {% endif %}
 
         {% include subscription.html %}
-        {% include share.html %}
         {% include author.html %}
         {% include comments.html %}
         {% include footer.html %}

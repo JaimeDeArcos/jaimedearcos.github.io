@@ -1,5 +1,6 @@
+
+<h2>{{ site.translations.text.share | default: "Share" }}</h2>
 <section class="share">
-    <h3>{{ site.translations.text.share | default: "Share" }}</h3>
     <!-- TWITTER -->
     <a aria-label="{{ site.translations.button.share_on_twitter | default: 'Share on Twitter' }}"
        href="https://twitter.com/intent/tweet?text=&quot;{{ page.description }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
