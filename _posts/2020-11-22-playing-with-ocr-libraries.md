@@ -65,7 +65,7 @@ os.remove(filename)
 print(text)
 ```
 
-You can find the complete code of this example in [this repo](https://github.com/JaimeDeArcos/ocr-python)
+You can find the complete code of this example in [this GitHub repository](https://github.com/JaimeDeArcos/ocr-python)
 
 ## References
 
