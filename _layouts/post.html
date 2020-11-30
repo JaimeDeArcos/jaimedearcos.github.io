@@ -57,8 +57,18 @@
                         {% endfor %}
                     </ul>
 
-                    {% include share.html %}
+                    <h2>{{ site.translations.text.tags | default: "Tags" }}</h2>
 
+                    <div class="tags">
+                        {% for tag in page.tags %}
+                        {% if tag != "" %}
+                        <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}" class="tag">#{{ tag }}</a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    {% include share.html %}
+                    
                 </aside>
             {% endif %}
 

@@ -13,7 +13,7 @@ category: algorithms
 tags: 
   - code
   - kotlin
-  - binary tree
+  - binary-tree
   - algorithms
 author: jaimedearcos
 paginate: false
@@ -21,7 +21,7 @@ paginate: false
  
 ## Traversals : 
 
-_"Tree traversal refers to the process of visiting (checking and/or updating) each node in a tree data structure, 
+>_"Tree traversal refers to the process of visiting (checking and/or updating) each node in a tree data structure, 
 exactly once. Such traversals are classified by the order in which the nodes are visited."_ -— [Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal)
 
 There are 2 options: 
@@ -42,7 +42,7 @@ path. There main 3 DFS types are:
 - **In-Order**: _(LNR)_ process left child, node data and finally right child
 ![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/in-order.gif)
 - **Post-Order**: _(LRN)_ process left child, right child and finally node data 
-![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/pot-order.gif)
+![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/post-order.gif)
  
 ### Kotlin Examples:
 
@@ -134,5 +134,5 @@ For BFS algorithm we are going to use a queue:
     }
 ```
 
+You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/tree" target="_blank">GitHub repository</a> 
 
-You can find the complete code example in <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/trees" target="_blank">this GitHub repository</a>
