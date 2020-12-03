@@ -1,3 +1,18 @@
+
+
+.tag{
+  height: 1.875rem;
+  line-height: 1.625rem;
+  color: #111;
+  padding: 0 .625rem;
+  border: 1px solid #111;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 0 .625rem .625rem 0;
+  z-index: 50;
+  text-decoration: none;
+}
+
 .post {
   position: relative;
   top: rem(30px);
