@@ -2,15 +2,12 @@
 date: 2020-12-02T11:00:00.000Z
 layout: post
 title: Bootstrap complete Java application infrastructure in AWS with Terraform
-subtitle: 'How to bootstrap a Java + MySql application infrastructure with terraform'
-description: >-
-  How to bootstrap a Java + MySql application infrastructure with terraform
-image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/infrastructure.jpg
-optimized_image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/infrastructure.jpg
+subtitle: How to bootstrap a Java + MySql application infrastructure with terraform
+description: How to bootstrap a Java + MySql application infrastructure with terraform
+image: /assets/img/uploads/infrastructure.jpg
+optimized_image: /assets/img/uploads/infrastructure.jpg
 category: infrastructure
-tags: 
+tags:
   - terraform
   - aws
 author: jaimedearcos
