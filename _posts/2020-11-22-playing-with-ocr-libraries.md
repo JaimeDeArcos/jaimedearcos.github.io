@@ -2,16 +2,15 @@
 date: 2020-11-22T11:00:00.000Z
 layout: post
 title: Playing with OCR libraries
-subtitle: 'How to recognize text from images with pytesseract library'
-description: >-
-  How to recognize text from images with pytesseract library. From image to python string
-image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/ideas.jpg
-optimized_image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/ideas.jpg
-category: ocr
-tags: 
+subtitle: How to recognize text from images with pytesseract library
+description: How to recognize text from images with pytesseract library. From
+  image to python string
+image: /assets/img/uploads/ideas.jpg
+optimized_image: /assets/img/uploads/ideas.jpg
+category: code
+tags:
   - ocr
+  - python
 author: jaimedearcos
 paginate: false
 ---
