@@ -2,15 +2,12 @@
 date: 2020-11-24T11:00:00.000Z
 layout: post
 title: Algorithms - Binary tree traversals in kotlin
-subtitle: 'A simple walkthrough of binary tree traversals algorithms with kotlin examples'
-description: >-
-  A simple walkthrough of binary tree traversals algorithms with kotlin examples
-image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/rubiks-cube.jpg
-optimized_image: >-
-  https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/rubiks-cube.jpg
+subtitle: A simple walkthrough of binary tree traversals algorithms with kotlin examples
+description: A simple walkthrough of binary tree traversals algorithms with kotlin examples
+image: /assets/img/uploads/rubiks-cube.jpg
+optimized_image: /assets/img/uploads/rubiks-cube.jpg
 category: algorithms
-tags: 
+tags:
   - code
   - kotlin
   - binary-tree
