@@ -13,7 +13,6 @@ tags:
 author: jaimedearcos
 paginate: false
 ---
-
 **Terraform** provides a way of describe infrastructure as code. Terraform will manage the communication with the 
 infrastructure provider (Amazon AWS in this example) to create, update or delete infrastructure resources.
 
@@ -21,24 +20,22 @@ infrastructure provider (Amazon AWS in this example) to create, update or delete
 
 In the following example we are going to bootstrap the necessary infrastructure to serve a Java API connected to RDS
  MySql database.
- 
-![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/terraform-basic.png)
 
-## Step 1 - Networking 
+![aws infrastructure diagram](/assets/img/uploads/terraform-basic.png "Aws infrastructure diagram")
+
+## Step 1 - Networking
 
 We are going to create a terraform module for VPC and other networking resources:
 
-- **VPC** - Virtual Private Cloud: Is a logical group of resources that are isolated from other VPCs and other customers
- of the Public Cloud.
- 
-- **VPC Subnet** : A VPC Subnet is defined by a subrange of the network IP addresses assigned to the VPC.
-
-- **Security Group** : The VPC Security Groups are the way AWS implements firewalls between instances in the VPC.
-In a VPC all inbound and outbound network traffic is denied by default. In order to allow traffic, a security group
- is defined and rules are assigned to the Security Group.
+* **VPC** - Virtual Private Cloud: Is a logical group of resources that are isolated from other VPCs and other customers
+  of the Public Cloud.
+* **VPC Subnet** : A VPC Subnet is defined by a subrange of the network IP addresses assigned to the VPC.
+* **Security Group** : The VPC Security Groups are the way AWS implements firewalls between instances in the VPC.
+  In a VPC all inbound and outbound network traffic is denied by default. In order to allow traffic, a security group
+   is defined and rules are assigned to the Security Group.
 
 The following is a terraform module to group all the needed networking resources in just one file.                     
-                    
+
 ```ruby
 resource "aws_vpc" "_" {
   cidr_block = var.vpc_cidr
@@ -152,14 +149,14 @@ resource "aws_db_instance" "rds-db" {
 }
 ```
 
-## Step 3 - Elastic Beanstalk 
+## Step 3 - Elastic Beanstalk
 
 Elastic Beanstalk is a great way to deploy Java applications, you only need to focus on the application. The service 
 can be configured as a **single instance or load balanced**. In this example we are going to deploy single instance, but 
 for production applications is highly recommended configuring as load balanced with a minimum of 2 instances, is not 
 only about performance, with this configuration when you deploy a new version AWS will replace 1 instance at the time 
  and wait to be in healthy state, this way we can achieve 0 downtime.
- 
+
 ```ruby
 resource "aws_security_group" "eb-sg" {
   name = "eb-sg"
@@ -272,8 +269,8 @@ resource "aws_elastic_beanstalk_environment" "eb-env-prod" {
     value = "true"
   }
 }
-``` 
- 
+```
+
 ## Deploy infrastructure
 
 With terraform, only we need to do is execute the following command, providing a file with all the variables we have defined
@@ -282,4 +279,4 @@ With terraform, only we need to do is execute the following command, providing a
 terraform apply -var-file="test.tfvars"
 ```
 
->_You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/terraform-aws-archetype" target="_blank">GitHub repository</a>_
+> *You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/terraform-aws-archetype" target="_blank">GitHub repository</a>*
