@@ -15,37 +15,36 @@ tags:
 author: jaimedearcos
 paginate: false
 ---
- 
-## Traversals : 
+## Traversals :
 
->_"Tree traversal refers to the process of visiting (checking and/or updating) each node in a tree data structure, 
-exactly once. Such traversals are classified by the order in which the nodes are visited."_ -— [Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal)
+> *"Tree traversal refers to the process of visiting (checking and/or updating) each node in a tree data structure, 
+> exactly once. Such traversals are classified by the order in which the nodes are visited."* -— [Wikipedia](https://en.wikipedia.org/wiki/Tree_traversal)
 
 There are 2 options: 
-- **DFS** : Depth-First Search _“is an algorithm for traversing or searching tree data structure. One starts at the 
-root and explores as far as possible along each branch before backtracking.” -— [Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
 
-- **BFS** : Breadth-First Search _“is an algorithm for traversing or searching tree data structure. It starts at the tree root and explores the 
-neighbor nodes first, before moving to the next level neighbors."_ -— [Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
-
+* **DFS** : Depth-First Search _“is an algorithm for traversing or searching tree data structure. One starts at the 
+  root and explores as far as possible along each branch before backtracking.” -— [Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
+* **BFS** : Breadth-First Search *“is an algorithm for traversing or searching tree data structure. It starts at the tree root and explores the 
+  neighbor nodes first, before moving to the next level neighbors."* -— [Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
 
 ## DFS - Depth-First Search
 
-DFS algorithms start from the and goes deep as possible until they find a leaf before backtracking and exploring another
-path. There main 3 DFS types are:
+DFS algorithms start from the root and goes deep as possible until they find a leaf before backtracking and exploring another
+path. The main 3 DFS types are:
 
-- **Pre-Order**: _(NLR)_ process node data, left child and finally right child
-![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/pre-order.gif)
-- **In-Order**: _(LNR)_ process left child, node data and finally right child
-![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/in-order.gif)
-- **Post-Order**: _(LRN)_ process left child, right child and finally node data 
-![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/post-order.gif)
- 
+* **Pre-Order**: *(NLR)* process node data, left child and finally right child
+  ![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/pre-order.gif)
+* **In-Order**: *(LNR)* process left child, node data and finally right child
+  ![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/in-order.gif)
+* **Post-Order**: *(LRN)* process left child, right child and finally node data 
+  ![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/post-order.gif)
+
 ### Kotlin Examples:
 
 Usually the DFS algorithms are ease to implement with **recursion**.
 
 **Binary tree**
+
 ```kotlin
 data class BinaryTreeNode(
         val data:Int,
@@ -55,6 +54,7 @@ data class BinaryTreeNode(
 ```
 
 **Preorder traversal**
+
 ```kotlin
 fun preOrderTraversal(node: BinaryTreeNode?, 
                       operation: (BinaryTreeNode) -> Unit){
@@ -69,6 +69,7 @@ fun preOrderTraversal(node: BinaryTreeNode?,
 ```
 
 **InOrder traversal**
+
 ```kotlin
 fun inOrderTraversal(node: BinaryTreeNode?, 
                      operation: (BinaryTreeNode) -> Unit){
@@ -83,6 +84,7 @@ fun inOrderTraversal(node: BinaryTreeNode?,
 ```
 
 **PostOrder traversal**
+
 ```kotlin
 fun postOrderTraversal(node: BinaryTreeNode?, 
                        operation: (BinaryTreeNode) -> Unit){
@@ -98,17 +100,16 @@ fun postOrderTraversal(node: BinaryTreeNode?,
 
 ## BFS - Breadth-First Search
 
-
 ![](https://jaimedearcos-resources.s3-eu-west-1.amazonaws.com/blog/bfs.gif)
 
 For BFS algorithm we are going to use a queue: 
 
-- Push root node to the queue
-- While queue is not empty:
-    - Poll element from queue and process data
-    - If left child exist, add to the queue
-    - If right child exist, add to the queue
- 
+* Push root node to the queue
+* While queue is not empty:
+
+  * Poll element from queue and process data
+  * If left child exist, add to the queue
+  * If right child exist, add to the queue
 
 ```kotlin
    fun bfs(node: BinaryTreeNode, operation: (BinaryTreeNode) -> Unit){
@@ -131,5 +132,4 @@ For BFS algorithm we are going to use a queue:
     }
 ```
 
-You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/tree" target="_blank">GitHub repository</a> 
-
+You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/tree" target="_blank">GitHub repository</a>
