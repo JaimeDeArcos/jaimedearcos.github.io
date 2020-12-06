@@ -132,4 +132,4 @@ For BFS algorithm we are going to use a queue:
     }
 ```
 
-You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/tree" target="_blank">GitHub repository</a>
+You can find the complete code of this example in this <a href="https://github.com/JaimeDeArcos/kotlin-algorithms/tree/main/trees/src/main/kotlin/es/jaimedearcos/algorithms/tree" target="_blank">GitHub repository</a>
