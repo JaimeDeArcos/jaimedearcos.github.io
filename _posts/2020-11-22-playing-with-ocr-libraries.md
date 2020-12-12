@@ -5,8 +5,8 @@ title: Playing with OCR libraries
 subtitle: How to recognize text from images with pytesseract library
 description: How to recognize text from images with pytesseract library. From
   image to python string
-image: /assets/img/uploads/ideas.jpg
-optimized_image: /assets/img/uploads/ideas.jpg
+image: /assets/img/uploads/ocr.jpg
+optimized_image: /assets/img/uploads/ocr.jpg
 category: code
 tags:
   - ocr
