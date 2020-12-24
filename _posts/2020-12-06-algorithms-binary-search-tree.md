@@ -116,7 +116,7 @@ fun remove(value:Int, parent:BinarySearchTreeNode) : Boolean{
         return false
     // Value greater than current node data
     }else if(value>data && right != null){
-        return left!!.remove(value,this)
+        return right!!.remove(value,this)
     }else if (value>data){
         return false
     // Value equals the greater node data
