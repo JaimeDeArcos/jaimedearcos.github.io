@@ -12,7 +12,7 @@ tags:
 author: jaimedearcos
 paginate: false
 ---
-> Recently I had to set-up a local server for some side projects I'm working in. I had configured ssh access to remote config it, but I was a bit afraid of the security risks of having external access to my home network with password login so I restricted the access to only ssh keys.
+> Recently I had to set-up a local server for some side projects I'm working at. I had configured ssh server to remote access, but I was afraid about the security risks of having external access to my home network with password login so I restricted the authentication to only ssh keys.
 
 ## 1. Generate ssh keys 
 
