@@ -63,4 +63,4 @@ Another security step for your ssh server is setting the right/minimum permissio
 ```bash
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
-`` 
+```
