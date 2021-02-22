@@ -55,3 +55,12 @@ UsePAM no
 ```bash
 sudo /etc/init.d/ssh reload
 ```
+
+### 4. Correct  `.ssh`  directory  permissions
+
+Another security step for your ssh server is setting the right/minimum permissions in the `.ssh` folder.
+
+```bash
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+```
