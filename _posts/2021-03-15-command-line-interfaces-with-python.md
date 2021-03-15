@@ -5,6 +5,8 @@ title: Command Line Interfaces with Python
 subtitle: Build CLI application with just a few lines of code
 description: Command Line Interfaces with Python - Build CLI application with
   just a few lines of code
+image: /assets/img/uploads/terminal.jpg
+optimized_image: /assets/img/uploads/terminal.jpg
 category: code
 tags:
   - python
