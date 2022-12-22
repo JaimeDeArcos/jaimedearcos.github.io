@@ -1,7 +1,7 @@
 
 # Jaime de Arcos Blog 
 
-You can reach this website at [blog.jaimedearcos.es](blog.jaimedearcos.es)
+You can reach this website at [blog.jaimedearcos.com](blog.jaimedearcos.com)
 
 ![](assets/img/blog-image.png)
 

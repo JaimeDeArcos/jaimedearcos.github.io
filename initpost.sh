@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="http://blog.jaimedearcos.es/"
+BLOG_URL="http://blog.jaimedearcos.com/"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"
