@@ -10,6 +10,7 @@ category: algorithms
 tags:
   - bots
   - twitter
+  - python
 author: jaimedearcos
 paginate: false
 ---

@@ -9,12 +9,10 @@ optimized_image: /assets/img/uploads/python-image.jpg
 category: code
 tags:
   - python
-  - coding
+  - code
 author: jaimedearcos
 paginate: false
 ---
-
-## Introduction
 
 In the world of Python development, managing dependencies can be a challenging task. You might encounter situations where different projects require different versions of the same library, or you simply want to isolate your project's environment to ensure consistency. That's where Python's venv comes into play. In this tutorial, we'll explore the advantages of using venv in your Python projects, guide you through its installation using pip, and provide an example of how to install dependencies and execute a Python script within your virtual environment.
 
