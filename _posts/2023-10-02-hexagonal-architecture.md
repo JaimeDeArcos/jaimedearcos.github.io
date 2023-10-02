@@ -1,5 +1,5 @@
 ---
-date: 2023-10-02 20:00:00
+date: 2023-10-02 18:00:00
 layout: post
 title: Introduction to Hexagonal Architecture
 subtitle: A brief introduction
