@@ -13,9 +13,7 @@ tags:
 author: jaimedearcos
 paginate: false
 ---
-
-## Introduction
-
+ 
 In the ever-evolving world of software development, embracing the "API First" philosophy has become a pivotal strategy. This approach prioritizes the design and development of Application Programming Interfaces (APIs) at the forefront of any software project. It not only streamlines development processes but also fosters collaboration and innovation. In this post, we'll delve into the concept of API-First and explore OpenAPI, a powerful tool for defining, documenting, and managing APIs.
 
 ## Understanding API First

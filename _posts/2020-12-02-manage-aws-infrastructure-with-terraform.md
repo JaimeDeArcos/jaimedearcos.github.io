@@ -10,6 +10,7 @@ category: infrastructure
 tags:
   - terraform
   - aws
+  - java
 author: jaimedearcos
 paginate: false
 ---
