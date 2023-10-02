@@ -1,5 +1,5 @@
 ---
-date: 2021-03-15 22:15:18
+date: 2023-09-01 22:15:18
 layout: post
 title: API First principles
 subtitle: Exploring OpenAPI with YAML
