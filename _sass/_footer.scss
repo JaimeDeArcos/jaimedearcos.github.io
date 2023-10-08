@@ -13,12 +13,12 @@ footer {
   border-top: 1px solid darken($accentDark, 10%);
   background: $accentDark;
   padding: rem(20px) rem(25px);
-  margin-top: rem(50px);
+  margin-top: rem(25px);
   margin-bottom: rem(120px);
   @include mainFont(300);
 
   @include media(">=sm") {
-    margin-top: rem(100px);
+    margin-top: rem(50px);
   }
 
   p {

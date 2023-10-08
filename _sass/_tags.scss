@@ -1,0 +1,22 @@
+section.tags {
+
+    background-color: $primaryDark;
+
+    div.tags {
+        text-align: center;
+        a {
+          font-size: rem(14px);
+          color: $lightGray;
+          display: inline-block;
+          border: 1px solid $lightGray;
+        }
+    }
+
+    .tag-title {
+        span {
+            color: #333;
+            font-weight: bold;
+        }
+    }
+
+}
