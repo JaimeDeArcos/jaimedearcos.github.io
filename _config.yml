@@ -4,11 +4,13 @@ title: Jaime de Arcos - Blog
 description: Jaime de Arcos development blog.
 url: https://blog.jaimedearcos.com/
 tags:
-  - blog
+  - software
+  - coding
   - developer
   - java
   - kotlin
   - spring
+  - python
 show_hero: true
 menu:
   - title: Blog
@@ -101,4 +103,4 @@ exclude: [
 ]
 
 # Theme
-version: v1.0.1
+version: v1.0.2

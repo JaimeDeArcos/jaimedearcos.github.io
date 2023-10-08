@@ -46,6 +46,15 @@
 
 .post-content {
   overflow-x: auto;
+
+
+  h1 {
+        text-align: initial;
+  }
+
+  text-align: justify;
+  text-justify: inter-word;
+
   padding: rem(40px) 0;
 
   &.fullwidth {
@@ -633,6 +642,8 @@
 /* Tags */
 
 .post-content {
+
+
   .tags {
     @include center(rem(800px));
     @include mainFont(400);
