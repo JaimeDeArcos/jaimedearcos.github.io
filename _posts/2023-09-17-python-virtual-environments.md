@@ -1,5 +1,5 @@
 ---
-date: 2023-10-01 22:00:00
+date: 2023-09-17 22:00:00
 layout: post
 title: Python Virtual Environments (venv)
 subtitle: A Comprehensive Guide
