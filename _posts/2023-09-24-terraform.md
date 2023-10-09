@@ -1,5 +1,5 @@
 ---
-date: 2023-10-4 18:00:00
+date: 2023-09-24 18:00:00
 layout: post
 title: Unleashing the Power of Infrastructure as Code (IaC) 
 subtitle: with Terraform
