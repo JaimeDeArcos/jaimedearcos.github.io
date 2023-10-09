@@ -1,7 +1,7 @@
 # Site Settings
 name: Jaime's Blog
 title: Jaime de Arcos - Blog
-description: Jaime de Arcos development blog.
+description: Personal blog about Software development.
 url: https://blog.jaimedearcos.com/
 tags:
   - software
@@ -22,7 +22,7 @@ menu:
   - title: Contact
     url: http://jaimedearcos.com/#/contact
 email: jaime.dearcos@gmail.com
-disqus_username: blog-jaimedearcos
+#disqus_username: blog-jaimedearcos
 
 
 # Social Media Settings
