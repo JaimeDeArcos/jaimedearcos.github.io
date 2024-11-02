@@ -31,3 +31,10 @@ gem install jekyll bundler
 bundle install
 bundle exec jekyll serve
 ```
+
+## Deploy
+
+This website runs under GitHub Pages, just push the changes to master branch
+
+## Write a post
+
